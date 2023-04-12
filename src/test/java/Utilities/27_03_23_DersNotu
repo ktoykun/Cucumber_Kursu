@@ -1,0 +1,16 @@
+
+Eğer devler siteye progress-bar koymuşsa,
+bir elementin bulunması için gereken bekleme
+süresini en doğru o verir. gerçek zaman burada
+gizlidir. bu olmasaydı sayfanın içindeki element
+lerden faydalanabilirdik. görünene kadar bekle gibi.
+html içinde fuse-progress-bar olarak buldu hoca.
+genelde progress var olarak geçer. ekranda bir şey var
+işlenmeye devam ediyor demek. farklı farklı şekillerde
+olabilir. html içerisinde bu progress barın içinde
+bir element, çocuğu çıkıyor. bunu ancak sayfa içinde
+search kısmına bastığımızda görüyoruz. bir bekletme
+yöntemi olarak bu elementin çocuğu sıfır olana kadar
+bekle diyebiliriz. en doğru bekletme yöntemi bu olacaktır.
+
+
