@@ -19,7 +19,7 @@ And Click on the element in LeftNav
 And Click on the element in Dialog
 | addButton   |
 
-And User sending the keys in Dialog content
+And User sending the keys in Dialog Content
 #aşağıda yazan tabloyu buraya direkt almış olduk. renkleri değişti
   | nameInput       | <name>     |
   | codeInput       | <code>     |
@@ -30,17 +30,17 @@ And Click on the element in Dialog
 | toggleBar    |
 | saveButton   |
 
-Then Succes message should be displayed
+Then Success message should be displayed
 
 And User delete item from Dialog Content
 | <name>   |
 
-Then Succes message should be displayed
+Then Success message should be displayed
     Examples:
       | name | code | intcode    | priority |
-      | küb1 | 123  | paypal     | 1        |
-      | küb2 | 456  | debitcard  | 2        |
-      | küb3 | 789  | applePay   | 3        |
-      | küb4 | 159  | cash       | 4        |
-      | küb5 | 951  | creditcard | 5        |
+      | kub1 | 123  | paypal     | 1        |
+      | kub2 | 456  | debitcard  | 2        |
+      | kub3 | 789  | applePay   | 3        |
+      | kub4 | 159  | cash       | 4        |
+      | kub5 | 951  | creditcard | 5        |
 
