@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
             tags = "@SmokeTest or @Regression", // hangi senaryolarda bu etiketler varsa onu çalıştır.
             // araya and de diyebiliriz o zaman sadece her iki taga de sahip olanları çalıştırır
             features = {"src/test/java/FeatureFiles"},
-            glue = {"StepDefinitions"})
+            glue = {"StepDefinitions"},
+            plugin= {"json:target/cucumber/cucumber.json"})
 
     public class _05_TestRunnerRegression  extends AbstractTestNGCucumberTests {
 
