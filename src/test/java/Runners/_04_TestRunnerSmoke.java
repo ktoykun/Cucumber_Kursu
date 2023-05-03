@@ -10,7 +10,9 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         tags = "@SmokeTest", // hangi senaryolarda bu etiket varsa onu çalıştır.
         features = {"src/test/java/FeatureFiles"},
-        glue = {"StepDefinitions"})
+        glue = {"StepDefinitions"},
+        plugin= {"json:target/cucumber/cucumber.json"}
+)
 
 public class _04_TestRunnerSmoke extends AbstractTestNGCucumberTests {
 
